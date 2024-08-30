@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recommendation System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Movie Recommendation System</h1>
+        
+        <div class="preferences">
+            <h2>Select Your Preferred Genre</h2>
+            <div class="genres">
+                <button class="genre" data-genre="Action">Action</button>
+                <button class="genre" data-genre="Comedy">Comedy</button>
+                <button class="genre" data-genre="Drama">Drama</button>
+                <button class="genre" data-genre="Horror">Horror</button>
+                <button class="genre" data-genre="Romance">Romance</button>
+            </div>
+        </div>
+
+        <div class="recommendations">
+            <h2>Recommended Movies</h2>
+            <ul id="recommendation-list"></ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
